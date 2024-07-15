@@ -16,7 +16,7 @@ body {
     max-width: 1200px;
     height: auto;
     margin: 0px auto;
-    background-color: #e6e6ff7d;
+    background-color: rgba(229, 84, 115);
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 
@@ -87,14 +87,14 @@ body {
 
 .feature-flowere-container {
     border: 2px solid lawngreen;
-    height: 800px;
+    height: auto;
     max-width: 1200px;
     margin: 0px auto;
 }
 
 .feature-content {
     width: 90%;
-    height: 600px;
+    height: auto;
     margin: 0px auto;
     border: 3px solid salmon;
 }
@@ -113,6 +113,81 @@ body {
     font-size: 10px;
 }
 
+.flowere-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    margin: 0px auto;
+    grid-gap: 20px;
+
+}
+
+.flowere-box {
+    height: 300px;
+    width: 70%;
+    border-radius: 50% 50% 0 0;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.flowere-box img {
+    width: 70%;
+    height: 75%;
+
+}
+
+#first-img {
+    background-color: #F2DEE7;
+}
+
+
+#second-img {
+    background-color: #DAF0F2;
+}
+
+
+#third-img {
+    background-color: #E3ECDC;
+}
+
+.floweres {
+    text-align: center;
+
+}
+
+.flowers-footer-container {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center;
+    background-color: #daf0f277;
+    gap: 5px;
+
+}
+
+.group-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.group-container img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+.group-container a {
+    font-size: 7px;
+    text-decoration: none;
+}
+
 /* feature-flowere-container ends heres */
 
 @media screen and (max-width:576px) {
@@ -120,6 +195,7 @@ body {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
     .shop-btn {
         display: block;
         margin: 0px auto;
@@ -142,6 +218,21 @@ body {
         width: 200px;
         height: 290px;
     }
+
+    .flowere-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .flowere-box {
+        height: 250px;
+        width: 100%;
+    }
+
+    .feauture-text h1 {
+        font-size: 45px;
+    }
 }
 
 
@@ -158,6 +249,21 @@ body {
     .header-content-right img {
         width: 280px;
         height: 300px;
+    }
+
+    .flowere-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .flowere-box {
+        height: 300px;
+        width: 85%;
+    }
+
+    .feauture-text h1 {
+        font-size: 50px;
     }
 }
 
@@ -176,6 +282,21 @@ body {
         width: 380px;
         height: 400;
     }
+
+    .flowere-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .flowere-box {
+        height: 300px;
+        width: 80%;
+    }
+
+    .feauture-text h1 {
+        font-size: 55px;
+    }
 }
 
 @media screen and (min-width:1200px) and (max-width:1400px) {
@@ -193,4 +314,18 @@ body {
         height: 400px;
     }
 
+    .flowere-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .flowere-box {
+        height: 300px;
+        width: 80%;
+    }
+
+    .feauture-text h1 {
+        font-size: 60px;
+    }
 }
