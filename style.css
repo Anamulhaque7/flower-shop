@@ -13,20 +13,18 @@ body {
 
 /* header-container start heres */
 .header-container {
-    max-width: 1200px;
+    max-width: 100%;
     height: auto;
     margin: 0px auto;
     background-color: rgba(229, 84, 115);
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-
 }
 
 .header-content {
     max-width: 90%;
     height: auto;
     margin: 0px auto;
-
 }
 
 .header-content-right {
@@ -86,7 +84,6 @@ body {
 /* feature-flowere-container start heres */
 
 .feature-flowere-container {
-    border: 2px solid lawngreen;
     height: auto;
     max-width: 1200px;
     margin: 0px auto;
@@ -96,7 +93,6 @@ body {
     width: 90%;
     height: auto;
     margin: 0px auto;
-    border: 3px solid salmon;
 }
 
 .feauture-text {
@@ -299,7 +295,7 @@ body {
     }
 }
 
-@media screen and (min-width:1200px) and (max-width:1400px) {
+@media screen and (min-width:1200px) and (max-width:1600px) {
     .header-content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
